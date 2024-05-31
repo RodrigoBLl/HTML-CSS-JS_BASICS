@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    background-image: linear-gradient(120deg, aqua 0%, rgb(0, 123, 255) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture{
+    width: 220px;
+    display: flex;
+    position: relative;
+}
+
+.picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-style: groove;
+    justify-self: center;
+    /* object-fit: cover; */
+}
+
+#upload-button {
+    margin-left: -55px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    transform: translateX(-50%);
+}
+
+#edit-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#save-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#name-input{
+    background-color: aliceblue;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-family: "Luckiest Guy", cursive;
+}
+
+.name {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-shadow:
+        1px 1px 3px white,
+        -1px -1px 3px white,
+        -1px 1px 3px white,
+        1px -1px 3px white,
+        1px 0 3px white,
+        -1px 0 3px white,
+        0 1px 3px white,
+        0 -1px 3px white;
+}
+
+.biography p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #4b0d00;
+    text-shadow:
+        1px 1px 3px white,
+        -1px -1px 3px white,
+        -1px 1px 3px white,
+        1px -1px 3px white,
+        1px 0 3px white,
+        -1px 0 3px white,
+        0 1px 3px white,
+        0 -1px 3px white;
+}
+
+h4 {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow:
+        1px 1px 3px white,
+        -1px -1px 3px white,
+        -1px 1px 3px white,
+        1px -1px 3px white,
+        1px 0 3px white,
+        -1px 0 3px white,
+        0 1px 3px white,
+        0 -1px 3px white;
+}
+
+.fa-brands {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+a :hover {
+    color: black;
+}
+
+a:visited {
+    color: #ed077b;
+}
+
+a :active {
+    color: #f6821f;
+}
+
+a {
+    color: black;
+}
+
+.main-social-media {
+    background-color: aliceblue;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
